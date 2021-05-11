@@ -8,6 +8,8 @@ import com.promineotech.jeep.entity.Jeep;
 @RestController()
 @RequestMapping("/jeeps")
 public class BasicJeepSalesController implements JeepSalesController {
+	
+  @Override
   public List<Jeep> fetchJeeps(String model, String trim) {
     return null;
   }
